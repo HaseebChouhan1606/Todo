@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo</title>
+</head>
+<style>
+    body {
+        text-align: center;
+    }
+
+    .b1:hover{
+        border: transparent;
+        background-color: transparent;
+        font-family:cursive
+    }
+    .b2:hover{
+        border: transparent;
+        background-color: transparent;
+        font-family:cursive
+    }
+</style>
+<body>
+    <div>
+        <input placeholder="Enter What to do" type="text" id="todo-item">
+        <button onclick="addTodo()" class="b1">ADD ITEM</button>
+        <button onclick="deleteAll()" class="b2">DELETE ALL</button>
+    </div>
+
+    <div>
+        <ul id="list">
+          
+        </ul>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
